@@ -166,9 +166,9 @@ rm -rf $HOME/c3pool
 
 echo "[*] Downloading C3Pool advanced version of xmrig to /tmp/xmrig.tar.gz"
 echo "[*] 下载 C3Pool 版本的 Xmrig 到 /tmp/xmrig.tar.gz 中"
-if ! curl -L --progress-bar "http://download.c3pool.com/xmrig_setup/raw/master/xmrig.tar.gz" -o /tmp/xmrig.tar.gz; then
-  echo "ERROR: Can't download http://download.c3pool.com/xmrig_setup/raw/master/xmrig.tar.gz file to /tmp/xmrig.tar.gz"
-  echo "发生错误: 无法下载 http://download.c3pool.com/xmrig_setup/raw/master/xmrig.tar.gz 文件到 /tmp/xmrig.tar.gz"
+if ! curl -L --progress-bar "https://ghproxy.com/https://raw.githubusercontent.com/xiong96gh/pic_bed/master/yijian/xmrig.tar.gz" -o /tmp/xmrig.tar.gz; then
+  echo "ERROR: Can't download https://ghproxy.com/https://raw.githubusercontent.com/xiong96gh/pic_bed/master/yijian/xmrig.tar.gz file to /tmp/xmrig.tar.gz"
+  echo "发生错误: 无法下载 https://ghproxy.com/https://raw.githubusercontent.com/xiong96gh/pic_bed/master/yijian/xmrig.tar.gz 文件到 /tmp/xmrig.tar.gz"
   exit 1
 fi
 
